@@ -4,9 +4,9 @@ import requests, base64, cv2, numpy as np
 from typing import List, Dict, Tuple
 import os
 
-API_URL = os.getenv("BACKEND_URL","http://127.0.0.1:8000/segment" )
 
 
+API_URL = st.secrets["API_URL"]
 
 
 
